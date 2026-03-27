@@ -13,7 +13,7 @@ The goal of this project is to build and integrate a football robot platform tha
 - Cloned and configured the starter robot firmware repository
 - Initialized required submodules including pico-sdk
 - Resolved build issues during toolchain and CMake setup
-- Successfully compiled the firmware for Raspberry Pi Pico W
+- compiled the firmware for Raspberry Pi Pico W
 - Generated the deployable `main_app.uf2` firmware file
 
 ## Tools and technologies
