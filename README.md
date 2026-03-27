@@ -1,4 +1,4 @@
-# CFRC-Football-robot-notes
+# CRFC-Football-robot-notes
 Development notes, build logs, CAD progress, and hardware integration records for my CRFC football robot project.
 # CRFC Football Robot Project Notes
 
