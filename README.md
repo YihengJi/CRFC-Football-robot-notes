@@ -1,22 +1,14 @@
-# CRFC-Football-robot-notes
-Development notes, build logs, CAD progress, and hardware integration records for my CRFC football robot project.
 # CRFC Football Robot Project Notes
 
-This repository documents my work on a Collegiate Robotic Football Conference football robot project.
+This repository records my work on a Collegiate Robotic Football Conference robot project.
 
 ## Project overview
-The goal of this project is to build and integrate a football robot platform that combines embedded firmware, hardware integration, and CAD-based mechanical design.
+This project focuses on building a football robot system that brings together embedded firmware, hardware integration, and CAD-based mechanical design.
 
-## My current work
-- Set up a WSL Ubuntu development environment
-- Installed the ARM embedded toolchain and build dependencies
-- Cloned and configured the starter robot firmware repository
-- Initialized required submodules including pico-sdk
-- Resolved build issues during toolchain and CMake setup
-- compiled the firmware for Raspberry Pi Pico W
-- Generated the deployable `main_app.uf2` firmware file
+## My role at this stage
+At this stage, my work has focused on the firmware setup side of the project. I set up the development environment in WSL Ubuntu, installed the required toolchain and dependencies, cloned the starter firmware repository, initialized the submodules, and built the firmware for Raspberry Pi Pico W.
 
-## Tools and technologies
+## Tools
 - WSL
 - Ubuntu
 - Git and GitHub
@@ -26,11 +18,8 @@ The goal of this project is to build and integrate a football robot platform tha
 - Embedded C/C++
 - Autodesk Inventor
 
-## Next steps
-- Flash firmware to Raspberry Pi Pico W
-- Test controller and Bluetooth functionality
-- Contribute to CAD design of the robot chassis/baseplate
-- Document hardware integration, debugging, and team contributions
+## Current status
+The software environment is ready, and the firmware build files have been generated. The next step is to flash the board, test controller and Bluetooth behavior, and continue with CAD and hardware work.
 
-## Notes
-This repository is intended as a personal engineering log for development notes, build records, CAD progress, and project milestones.
+## Purpose of this repository
+This repository is used as a personal project record for notes, build progress, design work, debugging, and later project updates.
