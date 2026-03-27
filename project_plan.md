@@ -1,23 +1,23 @@
 # Project Plan
 
 ## Current phase
-Software environment setup and firmware build preparation
+Software setup and firmware preparation
 
 ## Completed
-- GitHub project repository created
-- Firmware repository cloned and built successfully
-- UF2 firmware image generated
+- Created a GitHub repository for project records
+- Built the starter robot firmware
+- Generated the UF2 file for Raspberry Pi Pico W
 
-## Next tasks
-1. Obtain Raspberry Pi Pico W
+## Next steps
+1. Get a Raspberry Pi Pico W
 2. Flash `main_app.uf2` to the board
-3. Test startup and controller connectivity
-4. Begin CAD work for robot structure
-5. Record hardware integration process
-6. Summarize individual contribution for future resume and PhD application use
+3. Check startup behavior and controller connection
+4. Start CAD work for the robot structure
+5. Record hardware setup and testing
+6. Keep track of my own contribution for later use in my resume and PhD applications
 
-## Personal contribution goals
-- Embedded firmware setup and build
-- Part of CAD modeling
+## My contribution goals
+- Firmware environment setup and build
+- Part of the CAD modeling work
 - System integration and debugging
-- Project documentation
+- Project notes and documentation
