@@ -1,33 +1,44 @@
 # Build Log
 
-## 2026-03-26
-### Environment setup
+## Date
+2026-03-26
+
+## Environment setup
 - Installed WSL and Ubuntu on Windows
-- Created Linux user account
-- Installed required packages:
-  - git
-  - cmake
-  - gcc-arm-none-eabi
-  - libnewlib-arm-none-eabi
-  - build-essential
+- Created a Linux user account
+- Installed required packages for the firmware build environment
 
-### Repository setup
+Main packages used:
+- git
+- cmake
+- gcc-arm-none-eabi
+- libnewlib-arm-none-eabi
+- build-essential
+
+## Repository setup
 - Cloned `starter-robot-firmware`
-- Initialized submodules with:
-  - `git submodule update --init --recursive`
+- Ran `git submodule update --init --recursive` to pull the required submodules
 
-### Build issues encountered
-- Package download timeout during installation of large ARM-related package
-- Missing C++ compiler during CMake build
-- Resolved by installing `build-essential`
+## Issues and fixes
 
-### Build result
-- Successfully built firmware in the `build` directory
-- Generated:
-  - `main_app.elf`
-  - `main_app.uf2`
+### 1. Package download timeout
+A large ARM-related package timed out during installation.
 
-### Current status
-- Software build environment is ready
-- Firmware has been compiled successfully
-- Waiting for Raspberry Pi Pico W hardware for flashing and testing
+**Fix**  
+I retried the installation and focused on the main required packages first.
+
+### 2. Missing C++ compiler
+During the CMake build, the system reported that no C++ compiler could be found.
+
+**Fix**  
+I installed `build-essential`, which provided `g++` and allowed the build process to continue.
+
+## Build output
+The firmware was built in the `build` directory.
+
+Generated files:
+- `main_app.elf`
+- `main_app.uf2`
+
+## Status
+The software side is in place for now. The next hardware step will be flashing `main_app.uf2` to a Raspberry Pi Pico W and testing the robot firmware on the board.
