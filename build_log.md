@@ -58,6 +58,7 @@ The software side is in place for now. The next hardware step will be flashing `
   - motor driver
   - battery
   - other power and control parts for the early test setup
+
 ### Hardware photo
 Temporary hardware setup on a wooden base for early testing while waiting for the final plastic board.
 
