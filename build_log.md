@@ -42,3 +42,24 @@ Generated files:
 
 ## Status
 The software side is in place for now. The next hardware step will be flashing `main_app.uf2` to a Raspberry Pi Pico W and testing the robot firmware on the board.
+## 2026-03-27
+
+### Firmware and board test
+- Flashed `main_app.uf2` to the Raspberry Pi Pico W
+- After flashing, the board exited BOOTSEL mode and the onboard LED changed state during controller connection
+- Confirmed that the firmware was running on the Pico W
+
+### Temporary hardware setup
+- The plastic board for the robot base had not arrived yet
+- Cut a wooden board and used it as a temporary base for testing
+- Mounted several main components on the wooden base, including:
+  - wheels
+  - Raspberry Pi Pico W
+  - motor driver
+  - battery
+  - other power and control parts for the early test setup
+
+### Current status
+- The Pico W has been flashed and tested on the board
+- A temporary base is now in place for hardware testing
+- The next step is to continue wiring, power testing, and later move the setup to the final plastic base once it arrives
