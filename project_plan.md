@@ -1,7 +1,7 @@
 # Project Plan
 
 ## Current phase
-Software setup and firmware preparation
+Early hardware integration and testing
 
 - ## Completed
 - Created a GitHub repository for project records
