@@ -58,6 +58,10 @@ The software side is in place for now. The next hardware step will be flashing `
   - motor driver
   - battery
   - other power and control parts for the early test setup
+### Hardware photo
+Temporary hardware setup on a wooden base for early testing while waiting for the final plastic board.
+
+![Temporary hardware setup on wooden base](images/hardware/temp_base_setup_2026_03_27.jpg)
 
 ### Current status
 - The Pico W has been flashed and tested on the board
