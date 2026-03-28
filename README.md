@@ -19,8 +19,7 @@ At this stage, my work has focused on the firmware setup side of the project. I 
 - Autodesk Inventor
 
 ## Current status
-1.The software environment is ready, and the firmware build files have been generated. The next step is to flash the board, test controller and Bluetooth behavior, and continue with CAD and hardware work.
-2.The firmware has already been flashed to the Pico W, and a temporary wooden base is being used for early hardware testing while waiting for the final plastic board.
+The software environment is ready, and the firmware has already been flashed to the Pico W. A temporary wooden base is being used for early hardware testing while waiting for the final plastic board. The next step is to continue wiring, power checks, controller testing, and later move the setup to the final base.
 
 ## Purpose of this repository
 This repository is used as a personal project record for notes, build progress, design work, debugging, and later project updates.
