@@ -46,8 +46,8 @@ The software side is in place for now. The next hardware step will be flashing `
 
 ### Firmware and board test
 - Flashed `main_app.uf2` to the Raspberry Pi Pico W
-- After flashing, the board exited BOOTSEL mode and the onboard LED changed state during controller connection
-- Confirmed that the firmware was running on the Pico W
+- After flashing, the board exited BOOTSEL mode
+- The onboard LED blinked at startup and turned solid after the controller connected
 
 ### Temporary hardware setup
 - The plastic board for the robot base had not arrived yet
