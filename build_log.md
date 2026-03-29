@@ -108,7 +108,6 @@ At this point, I think the reverse problem may come from several possible source
 - One possible reason is that the right motor may be less efficient during reverse rotation
 
 #### Driver and power-side possibilities
-- I am confident that the two motors themselves have matching specifications
 - Possible causes on the driver or power side include:
   - unequal voltage drop or resistance between the left and right motor power paths
   - different contact quality at terminals, connectors, or wiring points during reverse load
