@@ -135,8 +135,9 @@ First full robot test setup after wiring, assembly, and motor replacement.
 
 ### Notes for next revision
 - Investigate why reverse output is not balanced between the two motors
-- Compare reverse behavior on both sides more carefully
-- Check the wiring, terminals, and power path on both motor channels
+- Review whether reverse motion needs its own calibration or compensation in code
+- Add a protection function so that the motors stop if no new command is received within a short time
+- Consider additional safety logic for controller disconnect cases before pushing for higher speed
 ## 2026-04-02
 
 ### Safety-related follow-up testing
