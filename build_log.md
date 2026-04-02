@@ -137,6 +137,39 @@ First full robot test setup after wiring, assembly, and motor replacement.
 - Investigate why reverse output is not balanced between the two motors
 - Compare reverse behavior on both sides more carefully
 - Check the wiring, terminals, and power path on both motor channels
+## 2026-04-02
+
+### Safety-related follow-up testing
+- Continued testing after the earlier runaway event
+- Checked whether the earlier loss-of-control case could be reproduced during today's hardware tests
+- Focused on whether a disconnected wire could explain the earlier runaway behavior
+
+### Battery-related issue found
+- During testing, the robot disconnected shortly after movement started
+- Measured the battery voltage and found that it had dropped to around 7.5 V
+- After charging the battery, the connection returned to normal
+- This suggests that the earlier disconnect during today's test was caused by low battery voltage rather than a new code issue
+
+### Wiring fault tests with the original code
+- Used the original code during the wire-disconnection tests
+- Powered on the robot and kept sending a forward command during testing
+- Tried disconnecting different wires one by one while the robot was running
+- In every tested case, the robot stopped immediately instead of continuing the last motion command
+
+### Current conclusion from today's tests
+- Based on today's results, the earlier runaway event was probably not caused by a simple persistent wire disconnection
+- The original code appears to stop the robot safely in most of the known wire-disconnection cases tested today
+- This means the earlier runaway event was likely caused by something more temporary or harder to reproduce
+
+### Status of the new safety code
+- The new safety code was compiled successfully
+- Full testing of the new logic was not completed today
+- The main reason is that the earlier runaway condition did not appear again during testing
+- Since the tested wire-disconnection cases already stopped the robot immediately, those tests did not fully exercise the new timeout-based safety logic
+
+### Notes
+- At this point, a more likely explanation for the earlier runaway event may involve a brief contact issue, a temporary power-related problem, or another short abnormal state that did not appear again today
+- More testing is still needed under conditions closer to the original event
 - Review whether reverse motion needs its own calibration or compensation in code
 - Add a protection function so that the motors stop if no new command is received within a short time
 - Consider additional safety logic for controller disconnect cases before pushing for higher speed
