@@ -174,3 +174,46 @@ First full robot test setup after wiring, assembly, and motor replacement.
 - Review whether reverse motion needs its own calibration or compensation in code
 - Add a protection function so that the motors stop if no new command is received within a short time
 - Consider additional safety logic for controller disconnect cases before pushing for higher speed
+
+## 2026-04-01 to 2026-04-05
+
+### New chassis transfer and hardware rebuild
+- The plastic base plate, top plate, and other printed structural parts arrived
+- Disassembled the previous testing robot and transferred the hardware to the new robot body
+- Started rebuilding the system on the new plastic structure
+### Rebuild photo
+New robot rebuild after transferring the system from the temporary testing platform to the printed plastic chassis.
+
+![New robot rebuild](images/hardware/new_chassis_transfer_2026_04_05.jpg)
+
+### Mechanical fit issues
+- The printed plastic parts did not match perfectly because of printing tolerance and dimensional error
+- Used tools such as a grinder and drill to adjust the printed parts
+- Some holes and contact surfaces had to be reworked before the parts could fit together
+
+### Assembly-order problem
+- I chose to fix the components onto the plate first and do the wiring afterward
+- This made the wiring process harder than expected
+- Some connections became difficult to access after the parts were mounted
+- In some cases, unstable wiring led to intermittent contact during testing
+
+### Wiring-related test problems
+- Unstable connections caused multiple problems during testing
+- One example was that the right wheel sometimes could not move backward
+- This was traced to an intermittent connection in the wire responsible for the right motor reverse command
+- Similar connection issues caused several different testing problems during these days
+
+### What I learned
+- These tests showed that assembly order matters a lot
+- It is better to plan the mounting and wiring sequence more carefully before fixing all parts in place
+- Electrical access and wire stability need to be considered earlier in the build process
+
+### Motor-size mismatch with the new chassis
+- The plastic chassis was originally designed for smaller motors
+- Because of that, the rebuilt robot is much slower than the earlier testing robot
+- The next plan is to redesign the plastic base plate so it can fit the higher-power motors used on the testing robot
+
+### Wiring and hardware-improvement ideas
+- The current wires are difficult to insert securely into parts such as the motor driver, Pico, and switch
+- Repeated unstable connections became a major source of testing trouble
+- In later revisions, I want to improve the hardware layout and connection method so that the system can use wires that are easier to install and more mechanically stable
