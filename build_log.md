@@ -175,7 +175,7 @@ First full robot test setup after wiring, assembly, and motor replacement.
 - Add a protection function so that the motors stop if no new command is received within a short time
 - Consider additional safety logic for controller disconnect cases before pushing for higher speed
 
-## 2026-04-01 to 2026-04-05
+## 2026-04-03 to 2026-04-05
 
 ### New chassis transfer and hardware rebuild
 - The plastic base plate, top plate, and other printed structural parts arrived
