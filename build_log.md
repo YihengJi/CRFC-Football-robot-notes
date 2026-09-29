@@ -1,5 +1,7 @@
 # Build Log
 
+> Retrospective clarification, September 2026: the March 28 entries use "disconnect" to describe observed loss of control. The cause was not established. April 2 follow-up tests did not reproduce the event or fully validate the new timeout. Dated entries retain observations and hypotheses recorded at the time.
+
 ## Date
 2026-03-26
 

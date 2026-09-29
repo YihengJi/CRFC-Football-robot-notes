@@ -1,5 +1,7 @@
 # Code Update Notes
 
+> Scope: these notes describe the early Pico W modification, not the later ESP32 code. The configured timeout was 300 ms. Compilation succeeded, but follow-up tests did not fully validate the protection against the original incident. The changed Pico W source files are not included in this notes repository.
+
 ## 2026-03-29
 
 ### Safety logic update
